@@ -1,0 +1,67 @@
+@media(min-width: 568px){
+    .row{
+        grid-template-columns: repeat(2, 1fr)!important;
+    }
+
+    .global-div{
+        grid-template-columns: repeat(2, 1fr)!important;
+    }
+
+    .facilities-img{
+        grid-template-columns: repeat(2, 1fr)!important;
+    }
+}
+
+@media(min-width: 800px){
+
+    .hamburger-icon{
+        display: none;
+    }
+    .nav-wrapper img{
+        width: 20%!important;
+    }
+    .nav-list{
+        display: flex!important;
+        width: auto!important;
+        background: transparent!important;
+        align-items: center!important;
+        margin-top: 0rem!important;
+    }
+    .nav-list li a{
+        text-decoration: none!important;
+        color: whitesmoke!important;
+    }
+
+    .nav-list li{
+        padding: 0rem!important;
+        padding-right: 1.4rem!important;
+    }
+    .nav-list li:last-child{
+        padding-right: 0rem!important;
+    }
+    .testimonial-comments{
+        grid-template-columns: repeat(2, 1fr)!important;
+    }
+    .testimonial-comments img{
+        width: 65%!important;
+    }
+}
+
+@media(min-width: 992px){
+
+    .nav-wrapper img{
+        width: 14%!important;
+    }
+
+    .row{
+        grid-template-columns: repeat(3, 1fr)!important;
+    }
+
+    .global-div{
+        grid-template-columns: repeat(3, 1fr)!important;
+    }
+
+    .facilities-img{
+        grid-template-columns: repeat(3, 1fr)!important;
+    }
+}

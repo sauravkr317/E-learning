@@ -1,0 +1,376 @@
+@import url("./global.css");
+@import url("./variables.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url("./responsive.css");
+nav{
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url("../eduford_img/banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.nav-wrapper{
+    padding: 1.2rem 0rem;
+    flex-wrap: wrap;
+}
+
+.nav-wrapper img{
+    width: 30%;
+}
+
+.hamburger-icon{
+    border: 2px solid var(--bg-color);
+    padding: .4rem .5rem;
+    border-radius: 4px;
+}
+
+.hamburger-icon i{
+    font-size: .9rem;
+    color: whitesmoke;
+}
+
+.nav-list{
+    display: none;
+}
+
+.nav-list{
+    margin-top: .4rem;
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;;
+    height: auto;
+    background-color: var(--bg-color);
+    border-radius: 4px;
+    transition: height .3s ease-out;
+}
+
+
+.nav-list li a{
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-list li{
+    font-size: 1rem;
+    padding: .4rem 0rem;
+    font-weight: 500;
+}
+
+.hero .container{
+    height: calc(100vh - 72px);
+}
+
+.hero .container h1{
+    color: whitesmoke;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 1.8rem;
+    letter-spacing: 1.5px;
+    padding: 1rem 0rem;
+}
+
+.hero .container p{
+    color: whitesmoke;
+    padding: 0rem 3rem;
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.hero .container div > button{
+    background-color: transparent;
+    padding: .6rem 1.2rem;
+    font-size: .9rem;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    border-radius: 4px;
+    margin-top: 1rem;
+    text-transform: capitalize;
+    outline: none;
+    cursor: pointer;
+    transition: .2s ease;
+}
+
+.hero .container div > button:hover{
+    background-color: var(--btn-hover-color);
+    outline: none;
+}
+
+
+.offer-sec .container{
+    padding: 4rem 0rem;
+    text-transform: capitalize;
+}
+
+.offer-sec .container h1{
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.offer-sec .container p{
+    font-weight: 400;
+    color: var(--para-color);
+    padding-top: .5rem;
+}
+
+.container-row{
+    padding: 0rem!important;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+}
+
+.offer-div{
+    padding: 2.5rem 1.5rem;
+    background-color: var(--background-color);
+    border-radius: 4px;
+    text-transform: capitalize;
+    transition: all .2s ease-out;
+}
+
+.offer-div:hover{
+    box-shadow: var(--box-shadow);
+}
+
+.offer-div h4{
+    color: #000;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.offer-div p{
+    margin-top: .5rem;
+}
+
+.heading{
+    padding: 4rem 0rem;
+    text-transform: capitalize;
+}
+
+.heading h1{
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.heading p{
+    color: var(--para-color);
+    margin-top: .5rem;
+}
+
+section.global-campus{
+    margin-top: 5rem;
+}
+
+.global-div{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+}
+
+.global-div div{
+    position: relative;
+}
+
+.global-div div img{
+    width: 100%;
+}
+
+.global-div div .layer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border-radius: 4px;
+    transition: all .5s ease-out;
+}
+
+.global-div div .layer:hover{
+    background-color: rgba(226, 0, 0, 0.6);
+
+}
+
+.global-div div .layer h1{
+    position: absolute;
+    font-weight: 400;
+    bottom: 0;
+    top: 0;
+    color: whitesmoke;
+    transform: translateX(-50%);
+    opacity: 0;
+    text-transform: uppercase;
+    transition: top .4s ease;
+}
+
+.global-div div .layer:hover h1{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
+    opacity: 1;
+}
+
+.global-div img{
+    width: 100%;
+    border-radius: 4px;
+    align-items: center;
+}
+
+section.our-facilities{
+    margin-top: 5rem;
+}
+
+.facility-heading{
+    padding: 4rem 0rem;
+    text-transform: capitalize;
+}
+
+.facility-heading h1{
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.facility-heading p{
+    margin-top: .5rem;
+    color: var(--para-color);
+}
+
+.facilities-img{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    grid-gap: 2rem;
+}
+
+.facilities-img img{
+    width: 100%;
+    border-radius: 4px;
+}
+
+.meta{
+    padding: .5rem 0rem;
+    text-transform: capitalize;
+}
+
+.meta h3{
+    font-weight: 500;
+    font-size: 1.4rem;
+    letter-spacing: .5px;
+}
+
+.meta p{
+    font-weight: 400;
+    font-size: var(--para-font);
+    color: var(--para-color);
+    line-height: 1.5rem;
+    margin-top: .5rem;
+}
+
+section.testimonial{
+    margin-top: 5rem;
+}
+
+.testimonial-heading{
+    text-transform: capitalize;
+    padding: 4rem .5rem;
+}
+
+.testimonial-heading h1{
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.testimonial-heading p{
+    color: var(--para-color);
+    font-weight: 400;
+    font-size: var(--para-font);
+    margin-top: .5rem;
+}
+
+.testimonial-comments{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+}
+
+.testimonial-comments img{
+    width: 60%;
+    border-radius: 50%;
+}
+
+.comments{
+    display: grid;
+    grid-template-columns: .5fr 2fr;
+    background-color: var(--background-color);
+    padding: 2rem 1rem;
+    border-radius: 4px;
+    transition: box-shadow .2s ease;
+}
+
+.comments:hover{
+    box-shadow: var(--box-shadow);
+}
+
+.comments div p{
+    font-size: var(--para-font);
+    color: var(--para-color);
+}
+
+.comments div h4{
+    text-transform: capitalize;
+    padding: .5rem 0rem;
+    font-weight: 500;
+    color: #000;
+}
+
+.comments div .stars span i{
+    color: #fa8231;
+    font-size: .8rem;
+}
+
+.enroll{
+    margin-top: 5rem;
+}
+
+.enroll .img{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../eduford_img/banner2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.enroll-heading{
+    padding: 6rem 0rem;
+}
+
+.enroll-heading h1{
+    color: whitesmoke;
+    text-transform: capitalize;
+    font-weight: 500;
+    line-height: 2.5rem;
+    padding: 2rem 1rem;
+}
+
+.enroll-heading a{
+    display: inline-block;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: .8rem 1.2rem;
+    border-radius: 4px;
+    border: 1px solid whitesmoke;
+    text-transform: uppercase;
+    transition: .2s ease;
+}
+
+.enroll-heading a:hover{
+    background-color: var(--btn-hover-color);
+}
+
+.enroll-heading a:focus{
+    outline: none;
+}

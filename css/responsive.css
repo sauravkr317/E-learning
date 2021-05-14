@@ -10,6 +10,10 @@
     .facilities-img{
         grid-template-columns: repeat(2, 1fr)!important;
     }
+    .about-us-div p{
+        padding-right: 2rem!important;
+        padding-left: 2rem!important;
+    }
 }
 
 @media(min-width: 800px){
@@ -45,12 +49,20 @@
     .testimonial-comments img{
         width: 65%!important;
     }
+    .about-us-div p{
+        padding-right: 8rem!important;
+        padding-left: 8rem!important;
+    }
 }
 
 @media(min-width: 992px){
 
+    html{
+        font-size: 18px!important;
+    }
+
     .nav-wrapper img{
-        width: 14%!important;
+        width: 12%!important;
     }
 
     .row{
@@ -63,5 +75,9 @@
 
     .facilities-img{
         grid-template-columns: repeat(3, 1fr)!important;
+    }
+    .about-us-div p{
+        padding-right: 15rem!important;
+        padding-left: 15rem!important;
     }
 }

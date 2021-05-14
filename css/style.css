@@ -374,3 +374,59 @@ section.testimonial{
 .enroll-heading a:focus{
     outline: none;
 }
+
+section.about-us{
+    margin-top: 5rem;
+}
+
+.about-us-div{
+    padding-top: 4rem;
+    text-transform: capitalize;
+}
+
+.about-us-div h1{
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.about-us-div p{
+    padding: 1rem 0rem;
+    color: var(--para-color);
+    font-size: var(--para-font);
+}
+
+.footer-icons{
+    margin: 0 6rem;
+    padding: 2rem 0rem;
+}
+
+.footer-icons span{
+    display: inline-block;
+    width: 100%;
+}
+
+.footer-icons span i{
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    font-weight: 500;
+    transition: .2s ease;
+}
+
+.footer-icons span i:hover{
+    color: var(--btn-hover-color);
+    cursor: pointer;
+}
+
+.footer-icons span i:last-child{
+    margin-right: 0rem;
+}
+
+.copyrigth{
+    text-transform: capitalize;
+    padding-bottom: 2rem;
+}
+
+.copyrigth p{
+    color: var(--para-color);
+    font-size: var(--para-font);
+}
